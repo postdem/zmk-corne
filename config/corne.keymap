@@ -64,10 +64,10 @@
 
         NAV_L {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans    &kp PG_UP      &kp HOME  &kp UP_ARROW  &kp END    &trans    &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &kp BSPC  &kp DELETE
-&trans  &trans    &trans    &trans     &trans     &trans    &trans         &trans    &trans        &trans     &trans    &trans
-                            &trans     &trans     &trans    &trans         &trans    &trans
+&trans  &trans      &trans     &trans      &trans       &trans        &kp PG_UP      &kp HOME  &kp UP_ARROW  &kp END    &trans    &trans
+&trans  &kp LGUI    &kp LALT   &kp LCTRL   &kp LSHFT    &trans        &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &kp BSPC  &kp DELETE
+&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO    &trans         &trans    &trans        &trans     &trans    &trans
+                               &trans      &trans       &trans        &trans         &trans    &trans
             >;
         };
 
